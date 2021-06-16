@@ -1,0 +1,45 @@
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#main{
+	width:600px;
+	height:400px;
+	display:grid;
+	grid-template: 1fr 4fr / 1fr;
+}
+
+#btns{
+	display:grid;
+	grid-template: 1fr / 1fr  1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+}
+
+#btns > input{ /*style all buttons*/
+	background-color:#9EDE73;
+	border:5px solid #F7EA00;
+	color:#F7EA00;
+	border-radius:10px;
+	font-size:23px;
+	font-weight:bold;
+}
+
+#btns > input:hover{
+	background-color:#F7EA00;
+	border:5px solid #9EDE73;
+	color:#9EDE73;
+}
+
+#txt {
+	border:5px solid #F7EA00;
+	border-radius:10px;
+	margin-top:10px;
+	padding:10px;
+	font-size:23px;
+}
+
+img {
+	width:400px;
+}
